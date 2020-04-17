@@ -1,0 +1,132 @@
+<!DOCTYPE HTML>
+<html lang= "en">
+<head>  
+        <meta charset="UTF-8">
+        <title>Gioceii>Danila prepeleag</title>       
+<style>
+  body{
+     background-image: url(.jpg); 
+  
+     height: 100vh;       
+     }
+  #header{
+     color:wheat;
+     position: absolute;
+     transform: translate(-50%, -50%);
+     top: 10%;
+     left: 49%;
+     font-family:Courier;
+     font-size: 70px;
+     background-color: rgb(80, 79, 79);
+     border-radius: 5px;
+     }            
+     #nav1{      
+       position: relative;;
+        
+     }
+     #content{
+      
+         position: absolute;
+        top: 20%;
+       left: 26%;
+       align-items: center;
+       color:wheat;
+       font-family: courier;
+       font-size: 20px;
+       text-align: center;
+       background-color: rgb(80, 79, 79);
+     border-radius: 5px;
+     }
+     #main{position: absolute;    
+     text-align: center;
+     font-family:Courier ; 
+    font-size: 23px;
+    top:40%;
+    left: 28%;
+    height: auto;
+       width: auto;
+       background-color: rgb(80, 79, 79);
+     border-radius: 5px;
+     color:wheat;
+}
+#futer{
+   position: absolute;
+   top: 110%;
+}
+    #header {  
+  animation-name: animatie1;
+  animation-duration: 1s;  
+}
+@keyframes animatie1 {
+   from {top: -4%;}  
+}
+#nav{
+  animation-name: animatie2;
+  animation-duration: 5s;   
+}
+@keyframes animatie2 {
+  from {left: -50%;}
+}
+#content{
+  animation-name:animatie4;
+  animation-duration: 6s; 
+    
+}
+@keyframes animatie4 {
+  from {text: none;}
+  
+}
+#main{
+  animation-name:animatie5;
+  animation-duration: 4s;   
+}
+@keyframes animatie5 {
+  from {top: 110%;}
+}
+
+</style>
+</head>
+        
+ <body>                
+
+                   <div id="nav1">                   
+                      <img src="1.jpg" width="100%" height="100%">                  
+                   </div>
+                   
+                   <div id="header">
+                    <a>Dănilă prepeleag</a>
+                  </div> 
+
+                      <div id="content">
+                         <a>Spectacolul Dănila Prepeleag este un spectacol in care<br> 
+                            veti descoperi lumea dracilor, o lume misterioasa     <br> 
+                            plina de haz si umor, caci smecheriile lui Danila     <br> 
+                                    
+                         </a>
+                      </div>
+
+                         <div id="main">
+                            <a>
+                              Regisorul-Domn mihai<br>
+
+                               Actoti<br>                               
+                               Sotia lu fratele lu Danila-Sergiu Vîzdoagă<br>
+                               Sotia lu Danila-Varaniță Catalina<br>
+                               Fratele lu Danila-Ilie Pîrlog<br>
+                               Tiganca-Olărasu Mihaela<br>
+                               Muzacantul-Iulian Pavel-Sîrbu<br>
+                               Satean-Chițanu Alexandru<br>
+                               -Mihaela Simionel<br>
+                               o fata-Laura Porfireanu<br>
+                               Drac 1-Marius Fordea<br>
+                               Drac 2-Pravni Danu<br>
+                               Dansatot-Cireș Vasea<br>
+                               -Andreea Trsînă<br>
+                               -Mircos Vitali<br>
+                            </a>
+                         </div>
+                         <div id="futer">
+                            
+                         </div>
+         </body>
+</html>
